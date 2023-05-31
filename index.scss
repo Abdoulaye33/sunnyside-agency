@@ -1,7 +1,13 @@
 $color-main: #A7AAAD;
 $color-base: black;
 
-
+nav img {
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    height: 100px;
+    width: 100px;
+}
 
 header{
     background: url(/images/photos/header.jpg);
@@ -25,6 +31,14 @@ ul {
         border-radius: 10px;
     }
 }
+#4Images {
+    display: flex;
+    flex-wrap: wrap;
+    & section img {
+        height: 100px;
+        width: 100px;
+    }
+} 
 
 footer {
     background-color: $color-main;

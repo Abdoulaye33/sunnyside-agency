@@ -1,3 +1,9 @@
+nav p {
+  justify-content: flex-start;
+  margin: 1rem;
+  padding: 1rem;
+}
+
 header {
   background: url(/images/photos/header.jpg);
 }
@@ -21,15 +27,15 @@ ul a {
   border-radius: 10px;
 }
 
-footer {
+#Images footer {
   background-color: #A7AAAD;
   text-align: center;
 }
-footer h3 {
+#Images footer h3 {
   text-align: center;
   padding: 1rem;
   font-size: 150%;
 }
-footer section img {
+#Images footer section img {
   margin: 1rem;
 }/*# sourceMappingURL=index.css.map */
