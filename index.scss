@@ -1,0 +1,40 @@
+$color-main: #A7AAAD;
+$color-base: black;
+
+
+
+header{
+    background: url(/images/photos/header.jpg);
+    &h1{
+        position: absolute;
+        text-align: center;
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+        list-style: none;
+        margin: 10px;
+    }
+    & a{
+        background-color: wheat;
+        color: $color-base;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+}
+
+footer {
+    background-color: $color-main;
+    text-align: center;
+    & h3 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 150%;
+    }
+    & section img {
+        margin: 1rem;
+    }
+}

@@ -1,1 +1,35 @@
-/*# sourceMappingURL=index.css.map */
+header {
+  background: url(/images/photos/header.jpg);
+}
+headerh1 {
+  position: absolute;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+ul li {
+  list-style: none;
+  margin: 10px;
+}
+ul a {
+  background-color: wheat;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #A7AAAD;
+  text-align: center;
+}
+footer h3 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 150%;
+}
+footer section img {
+  margin: 1rem;
+}/*# sourceMappingURL=index.css.map */
