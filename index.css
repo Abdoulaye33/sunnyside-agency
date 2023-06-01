@@ -1,10 +1,8 @@
 header img {
   justify-content: flex-start;
-  height: 33px;
-  width: 170px;
-  left: 0px;
-  top: 12px;
-  border-radius: 0px;
+}
+header img section img {
+  display: none;
 }
 
 ul {
@@ -20,6 +18,24 @@ ul a {
   color: black;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.egg {
+  display: flex;
+  text-align: center;
+}
+.egg section img {
+  width: 40rem;
+}
+
+.cup {
+  display: flex;
+}
+.cup section img {
+  width: 40rem;
+}
+.cup .cup_right {
+  text-align: center;
 }
 
 .fruit {
