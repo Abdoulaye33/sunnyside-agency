@@ -1,15 +1,10 @@
-nav p {
+header img {
   justify-content: flex-start;
-  margin: 1rem;
-  padding: 1rem;
-}
-
-header {
-  background: url(/images/photos/header.jpg);
-}
-headerh1 {
-  position: absolute;
-  text-align: center;
+  height: 33px;
+  width: 170px;
+  left: 0px;
+  top: 12px;
+  border-radius: 0px;
 }
 
 ul {
@@ -27,15 +22,54 @@ ul a {
   border-radius: 10px;
 }
 
-#Images footer {
-  background-color: #A7AAAD;
+.fruit {
+  display: flex;
+}
+.fruit section img {
+  width: 40rem;
+}
+.fruit section p, .fruit h2 {
   text-align: center;
 }
-#Images footer h3 {
+
+.customers {
+  text-align: center;
+  padding: 90px;
+}
+.customers .only {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.customers img {
+  border-radius: 48% 52% 48% 52%/51% 50% 50% 49%;
+}
+.customers h2 {
+  text-align: center;
+  color: #A7AAAD;
+  padding-bottom: 50px;
+}
+
+#Images {
+  display: flex;
+  flex-wrap: wrap;
+}
+#Images section img {
+  height: 320px;
+  width: 320px;
+}
+
+footer {
+  background-color: #A7AAAD;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+footer h3 {
   text-align: center;
   padding: 1rem;
   font-size: 150%;
 }
-#Images footer section img {
+footer section img {
   margin: 1rem;
 }/*# sourceMappingURL=index.css.map */
